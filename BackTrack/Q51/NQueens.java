@@ -72,6 +72,7 @@ public class NQueens {
         NQueens solver = new NQueens();
         List<List<String>> solutions = solver.solveNQueens(n);
         System.out.println("不同的 n 皇后问题的解决方案有:");
+        System.out.println(solutions.size());
         for (List<String> solution : solutions) {
             for (String row : solution) {
                 System.out.println(row);
